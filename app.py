@@ -19,7 +19,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.dates as mdates
 import plotly.express as px
-plt.rcParams['font.family'] = 'IPAexGothic'
+plt.rcParams['font.family'] = 'sans-serif'
 
 team_country_map = {
         "France": "フランス",
