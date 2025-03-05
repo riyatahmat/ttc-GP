@@ -1,0 +1,10 @@
+streamlit
+mplsoccer
+statsbombpy
+matplotlib
+seaborn
+numpy
+pandas
+scipy
+plotly
+streamlit-extras
