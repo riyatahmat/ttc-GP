@@ -3,8 +3,8 @@ mplsoccer == 1.4.0
 statsbombpy == 1.14.0
 matplotlib == 3.9.0
 seaborn == 0.13.2
-numpy == 1.23.5
-pandas == 1.5.3
+numpy == 1.26.4
+pandas == 2.2.2
 scipy == 1.13.1
 plotly == 5.24.1
 streamlit-extras == 0.5.0
