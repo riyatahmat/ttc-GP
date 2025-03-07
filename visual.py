@@ -105,6 +105,7 @@ def heat_map(match_id,team_name):
                                 fontproperties=robotto_regular.prop, fontsize=30)
 
     st.pyplot(fig)
+    plt.close(fig)
 
 # ✅
 def plot_pass_network(match_id, team_name,opponenet):
@@ -266,6 +267,7 @@ def plot_pass_network(match_id, team_name,opponenet):
     )    
     
     st.pyplot(fig)
+    plt.close(fig)
 
 # ✅
 def pass_flow(match_id, team_name):
@@ -298,6 +300,7 @@ def pass_flow(match_id, team_name):
                     arrow_type='average', bins=bins, ax=ax)
     ax_title = ax.set_title(f'{team_name} pass flow map ', fontsize=30, pad=-20)
     st.pyplot(fig)
+    plt.close(fig)
 
 def joint_shot_plot(match_id):
     parser = Sbopen()
@@ -344,6 +347,7 @@ def joint_shot_plot(match_id):
     axs['pitch'].text(x=105, y=70, s=team2, color='blue', ha='center', va='center', fontsize=30)
     
     st.pyplot(fig)
+    plt.close(fig)
 
 
 
